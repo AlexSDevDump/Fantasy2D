@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7364493030898774333}
   - component: {fileID: 1622117826850670275}
+  - component: {fileID: 2409033057520298580}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Weapon
@@ -82,6 +83,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2409033057520298580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589366126565606828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b099f8638d15b4888ec8b536814c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2959728411163690754
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +106,6 @@ GameObject:
   - component: {fileID: 7436986828199892846}
   - component: {fileID: 3602137730174512368}
   - component: {fileID: 4336443943198414748}
-  - component: {fileID: 7660428845550026190}
   - component: {fileID: 767850828320313166}
   m_Layer: 0
   m_Name: Interaction
@@ -158,18 +170,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -1.5}
   m_Size: {x: 3, y: 1.5}
   m_Direction: 1
---- !u!114 &7660428845550026190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2959728411163690754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7b099f8638d15b4888ec8b536814c60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &767850828320313166
 MonoBehaviour:
   m_ObjectHideFlags: 0

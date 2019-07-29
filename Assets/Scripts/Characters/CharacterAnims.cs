@@ -21,4 +21,25 @@ public class CharacterAnims : MonoBehaviour
     {
         anim.SetBool("isWalking", true);
     }
+
+    public void AttackingAnim()
+    {
+        Debug.Log("Attack Anim");
+        anim.SetBool("isAttacking", true);
+    }
+
+    public void AttackEvent()
+    {
+        GetComponent<MeleeAttack>().CheckForEnemies();
+    }
+
+    public void AttackingEnd(string message)
+    {
+        if(message.Equals("AttackAnimationEnded"))
+        {
+            Debug.Log("Attack Ended");
+            anim.SetBool("isAttacking", false);
+        }
+        GetComponentInParent<CharacterAttack>().AttackEnded();
+    }
 }

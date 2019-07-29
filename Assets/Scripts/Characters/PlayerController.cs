@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour, InputSystem.IPlayerActions
 
     public void OnPrimaryAttack(InputAction.CallbackContext context)
     {
-        FindObjectOfType<CharacterAttack>().Attack();
+        GetComponent<CharacterAttack>().Attack();
     }
 
     public void OnMove(InputAction.CallbackContext context)

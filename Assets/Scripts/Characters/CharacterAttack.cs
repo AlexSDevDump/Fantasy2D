@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class CharacterAttack : MonoBehaviour
 {
+    public bool isAttacking = false;
+
     public void Attack()
     {
-        GunController gun = GetComponentInChildren<GunController>();
-        if (gun != null)
+        if (isAttacking == false)
         {
-            gun.Fire();
+            isAttacking = true;
+            GetComponentInChildren<CharacterAnims>().AttackingAnim();
         }
+    }
+
+    public void AttackEnded()
+    {
+        isAttacking = false;
     }
 }

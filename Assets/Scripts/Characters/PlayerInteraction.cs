@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    private Interaction interaction = null;
+    [SerializeField] private Interaction interaction = null;
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if(coll.transform.root.gameObject.tag == "Interact")
+        if(coll.gameObject.tag == "Interact")
         {
             interaction = coll.GetComponent<Interaction>();
         }

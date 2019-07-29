@@ -31,7 +31,7 @@ public class Health : MonoBehaviour
 
     public void ZeroHealth()
     {
-        GetComponent<DestroySelf>().Destroy();
+        GetComponentInParent<DestroySelf>().Destroy();
     }
 
     public void ResetHealth()
