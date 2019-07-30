@@ -16,7 +16,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void Movement(Vector2 moveDir)
     {
-        GetComponentInChildren<CharacterAnims>().WalkingAnim();
+        GetComponentInChildren<BaseAnims>().WalkingAnim(true);
         moveDir = moveDir.normalized * moveSpeed;
         rb.MovePosition(rb.position + moveDir * Time.deltaTime);
     }
@@ -25,7 +25,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if(!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)))
         {
-            GetComponentInChildren<CharacterAnims>().IdleAnim();
+            GetComponentInChildren<BaseAnims>().WalkingAnim(false);
         }
     }
 }

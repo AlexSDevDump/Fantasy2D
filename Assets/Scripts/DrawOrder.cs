@@ -7,15 +7,13 @@ public class DrawOrder : MonoBehaviour
 {
     private SortingGroup sprGroup;
     private List<SpriteRenderer> sprRends;
-    private SpriteRenderer lowestSprite = null;
-    private SortingGroup player;
+    [SerializeField] private SpriteRenderer lowestSprite = null;
+    public int offset;
 
-    // Start is called before the first frame update
     void Start()
     {
         sprRends = new List<SpriteRenderer>();
         sprGroup = GetComponent<SortingGroup>();
-        player = FindObjectOfType<PlayerController>().GetComponentInChildren<SortingGroup>();
 
         if(GetComponent<SpriteRenderer>() != null)
             sprRends.Add(GetComponent<SpriteRenderer>());
@@ -44,12 +42,12 @@ public class DrawOrder : MonoBehaviour
                 lowestSprite = spr;
         }
 
-        sprGroup.sortingOrder = (int)Camera.main.WorldToScreenPoint(lowestSprite.bounds.min).y * -1;
+        sprGroup.sortingOrder = (int)Camera.main.WorldToScreenPoint(lowestSprite.bounds.min).y * -1 + offset;
     }
 
     void SingleSprite()
     {
         lowestSprite = sprRends[0];
-        lowestSprite.sortingOrder = (int)Camera.main.WorldToScreenPoint(lowestSprite.bounds.min).y * -1;
+        lowestSprite.sortingOrder = (int)Camera.main.WorldToScreenPoint(lowestSprite.bounds.min).y * -1 + offset;
     }
 }

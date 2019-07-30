@@ -19,7 +19,6 @@ public class MeleeAttack : MonoBehaviour
     {
         foreach(Collider2D e in enemies)
         {
-            Debug.Log("Hit " + e);
             e.GetComponent<Health>().Damaged(damage);
         }
     }

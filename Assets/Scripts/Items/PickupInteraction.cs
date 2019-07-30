@@ -15,7 +15,7 @@ public class PickupInteraction : Interaction
     {
         Debug.Log("Pickup Item");
         transform.root.SetParent(hand);
-        transform.parent.localPosition = new Vector3(1.2f, 1.6f, 0);
+        transform.parent.localPosition = new Vector3(-0.2f, 1.6f, 0);
         gameObject.SetActive(false);
     }
 }

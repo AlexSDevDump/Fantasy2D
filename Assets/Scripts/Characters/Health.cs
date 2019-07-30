@@ -20,6 +20,7 @@ public class Health : MonoBehaviour
     public void Damaged(int dam)
     {
         currentHealth -= dam;
+        GetComponentInChildren<BaseAnims>().HitAnim(true);
         CheckHealth();
     }
 
@@ -31,7 +32,7 @@ public class Health : MonoBehaviour
 
     public void ZeroHealth()
     {
-        GetComponentInParent<DestroySelf>().Destroy();
+        GetComponent<Death>().DeathEvent();
     }
 
     public void ResetHealth()
