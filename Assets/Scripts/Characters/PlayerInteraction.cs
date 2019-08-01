@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    private Interaction interaction = null;
+    [SerializeField] private Interaction interaction = null;
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if(coll.gameObject.tag == "Interact")
+        if(interaction == null)
         {
             interaction = coll.GetComponent<Interaction>();
+            if(interaction == null)
+                Debug.LogError("INTERACTION COMPONENT MISSING");
         }
     }
 
@@ -21,13 +23,7 @@ public class PlayerInteraction : MonoBehaviour
 
     public void CallInteraction()
     {
-        if(interaction != null)
-        {
-            interaction.InteractWithObject();
-        }
-        else
-        {
-            Debug.Log("No object in range");
-        }
+        if (interaction != null) { interaction.InteractWithObject(transform.root.gameObject); }
+        else { Debug.Log("No object in range"); }
     }
 }

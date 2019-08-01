@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour, InputSystem.IPlayerActions
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        PlayerInteraction interact = GetComponent<PlayerInteraction>();
+        PlayerInteraction interact = GetComponentInChildren<PlayerInteraction>();
         if (interact != null)
             interact.CallInteraction();
         else

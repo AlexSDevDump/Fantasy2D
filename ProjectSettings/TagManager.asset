@@ -18,9 +18,9 @@ TagManager:
   - UI
   - 
   - 
-  - Hittable
-  - 
-  - 
+  - Enemy
+  - Interactable
+  - Friendly
   - 
   - 
   - 

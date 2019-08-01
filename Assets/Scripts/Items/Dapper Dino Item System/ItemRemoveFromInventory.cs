@@ -37,9 +37,9 @@ public class ItemRemoveFromInventory : MonoBehaviour
             dropPos = playerPos + fromOriginToObject;
         }
 
-        Instantiate(inventory.ItemContainer.GetWorldItem(slotIndex), dropPos, Quaternion.identity);
+        Instantiate(inventory.GetWorldItem(slotIndex), dropPos, Quaternion.identity);
 
-        inventory.ItemContainer.RemoveAt(slotIndex);
+        inventory.RemoveAt(slotIndex);
 
         gameObject.SetActive(false);
     }

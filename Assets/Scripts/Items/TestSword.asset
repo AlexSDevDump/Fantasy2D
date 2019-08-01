@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3fa31c2efd6e444a70f6186b59420f, type: 3}
+  m_Name: TestSword
+  m_EditorClassIdentifier: 
+  weaponDamage: 1
+  weaponDamageRadius: 1
+  weaponDamagePos: {x: 2.8, y: 2.75}
+  weaponSprite: {fileID: 21300000, guid: b5e3dd2af4cb3b941a876ba7414c61f6, type: 3}
