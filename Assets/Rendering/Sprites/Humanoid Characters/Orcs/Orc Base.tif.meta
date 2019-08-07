@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: ce2d790e842b60d44a6a5046fa67b58e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -519901375289240609
+    second: Orc Head
+  - first:
+      213: -5534494928309765506
+    second: Orc Base_1
+  - first:
+      213: -5785499822210726025
+    second: Orc Mouth
+  - first:
+      213: -3151614935636679539
+    second: Orc Back Arm
+  - first:
+      213: -6230353941331610856
+    second: Orc Base_4
+  - first:
+      213: -6609266510635645606
+    second: Orc Front Arm
+  - first:
+      213: 6701948473556219552
+    second: Orc Body
+  - first:
+      213: -7933641824885599390
+    second: Orc Back Foot
+  - first:
+      213: 7941218823369574390
+    second: Orc Front Foot
+  - first:
+      213: 4134470982481670237
+    second: Head
+  - first:
+      213: -5785499822210726025
+    second: Mouth
+  - first:
+      213: -3151614935636679539
+    second: Back Arm
+  - first:
+      213: -6609266510635645606
+    second: Front Arm
+  - first:
+      213: 6701948473556219552
+    second: Body
+  - first:
+      213: -7933641824885599390
+    second: Back Leg
+  - first:
+      213: 7941218823369574390
+    second: Front Leg
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 255
+        width: 366
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5072267, y: 0.3139114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b007b2eb4c8084ca8062a5ffa37181
+      internalID: 4134470982481670237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouth
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 575
+        width: 157
+        height: 75
+      alignment: 9
+      pivot: {x: 0.53111356, y: 0.6046623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990aa65f2c717a4082feac7272621ef
+      internalID: -5785499822210726025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Arm
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 322
+        width: 136
+        height: 224
+      alignment: 9
+      pivot: {x: 0.8615671, y: 0.8432702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc6d9886dcee3f48b0c8db50a92c87d
+      internalID: -3151614935636679539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Arm
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 140
+        width: 179
+        height: 164
+      alignment: 9
+      pivot: {x: 0.08102012, y: 0.7926831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872c393e1f38cbc47b102d493bd3c27b
+      internalID: -6609266510635645606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 35
+        width: 281
+        height: 189
+      alignment: 9
+      pivot: {x: 0.4819331, y: 0.2398374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba42948b66242040a0f0c071d202bee
+      internalID: 6701948473556219552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Leg
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 36
+        width: 113
+        height: 62
+      alignment: 9
+      pivot: {x: 0.3355917, y: 0.104336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984244dd9ff110e45985aa99a2039119
+      internalID: -7933641824885599390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Leg
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 34
+        width: 116
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5867208, y: 0.1169828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ae4d264730ce4690de7dc68cb16fd
+      internalID: 7941218823369574390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
